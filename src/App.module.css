@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.sliderTitle {
+  font-size: 30px;
+  color: rgb(187, 99, 150);
+  font-weight: 600;
+  font-family: 'Pacifico', cursive;
+}

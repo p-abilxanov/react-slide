@@ -1,0 +1,53 @@
+.sliderWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.sliderWrapper button {
+  background-color: #999;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  font-weight: 900;
+  border-radius: 50%;
+  display: block;
+  justify-content: center;
+  position: absolute;
+}
+.prevBtn {
+  left: -30px;
+}
+.nextBtn {
+  right: -30px;
+}
+.sliderTrack {
+  width: 100%;
+  overflow: hidden;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.list li {
+  display: flex;
+  flex-direction: column;
+  min-width: calc((100% - 120px) / 4);
+  margin: 0 15px;
+  padding: 15px;
+  transition: transform 0.5s;
+}
+
+.list li img {
+  width: 70%;
+  border-radius: 50%;
+}
